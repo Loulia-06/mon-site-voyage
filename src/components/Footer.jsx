@@ -1,4 +1,4 @@
-import { Facebook, Instagram, Twitter, MapPin, Phone, Mail, Globe } from 'lucide-react';
+import { Facebook, Instagram, Twitter, MapPin, Phone, Mail, Plane } from 'lucide-react';
 
 export default function Footer() {
   return (
@@ -10,7 +10,7 @@ export default function Footer() {
           <div className="md:col-span-1">
             <div className="text-2xl font-bold text-white flex items-center gap-2 mb-6">
               <Plane size={28} className="text-blue-500" />
-              <span>VoyageX</span>
+              <span>MonVoyage</span>
             </div>
             <p className="text-sm leading-relaxed mb-6">
               Votre partenaire de confiance pour des voyages inoubliables. 
@@ -49,7 +49,7 @@ export default function Footer() {
             </ul>
           </div>
 
-        
+          
           <div>
             <h4 className="text-white font-bold mb-6 uppercase tracking-wider text-sm">Contactez-nous</h4>
             <ul className="space-y-4 text-sm">
@@ -63,14 +63,14 @@ export default function Footer() {
               </li>
               <li className="flex items-center gap-3">
                 <Mail size={18} className="text-blue-500" />
-                <span>contact@voyagex.fr</span>
+                <span>contact@monvoyage.fr</span>
               </li>
             </ul>
           </div>
         </div>
         
         <div className="flex flex-col md:flex-row justify-between items-center text-sm text-gray-500">
-          <p>&copy; 2025 VoyageX. Tous droits réservés.</p>
+          <p>&copy; 2025 MonVoyage. Tous droits réservés.</p>
         </div>
       </div>
     </footer>
