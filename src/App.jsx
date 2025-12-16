@@ -12,7 +12,7 @@ import Footer from './components/Footer';
 export default function App() {
 
   const [selectedDestination, setSelectedDestination] = useState(null);
-
+  
   return (
     <div className="font-sans antialiased text-gray-900 bg-white min-h-screen flex flex-col">
      
