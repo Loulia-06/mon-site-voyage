@@ -9,8 +9,8 @@ export default function Footer() {
          
           <div className="md:col-span-1">
             <div className="text-2xl font-bold text-white flex items-center gap-2 mb-6">
-              <Globe size={28} className="text-blue-500" />
-              <span>VoyageX</span>
+              <Plane size={28} className="text-blue-500" />
+              <span>MonVoyage</span>
             </div>
             <p className="text-sm leading-relaxed mb-6">
               Votre partenaire de confiance pour des voyages inoubliables. 
@@ -63,14 +63,14 @@ export default function Footer() {
               </li>
               <li className="flex items-center gap-3">
                 <Mail size={18} className="text-blue-500" />
-                <span>contact@voyagex.fr</span>
+                <span>contact@MonVoyage.fr</span>
               </li>
             </ul>
           </div>
         </div>
         
         <div className="flex flex-col md:flex-row justify-between items-center text-sm text-gray-500">
-          <p>&copy; 2025 VoyageX. Tous droits réservés.</p>
+          <p>&copy; 2025 MonVoyage. Tous droits réservés.</p>
         </div>
       </div>
     </footer>
