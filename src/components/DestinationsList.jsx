@@ -64,6 +64,36 @@ const destinations = [
       { day: 2, title: "Liberté", desc: "Statue de la Liberté." },
       { day: 3, title: "Central Park", desc: "Pique-nique." }
     ]
+  },
+  {
+    id: 5,
+    title: "Machu Picchu, Pérou",
+    price: "1 600 €",
+    rating: 4.9,
+    image: voyageImage, 
+    duration: "9 Jours",
+    tags: ["Histoire", "Montagne"],
+    description: "Partez sur les traces des Incas. Une aventure inoubliable au cœur des Andes.",
+    itinerary: [
+      { day: 1, title: "Cusco", desc: "Arrivée et acclimatation." },
+      { day: 2, title: "Vallée Sacrée", desc: "Visite des ruines et marchés." },
+      { day: 3, title: "Machu Picchu", desc: "Le moment magique au lever du soleil." }
+    ]
+  },
+  {
+    id: 6,
+    title: "Le Cap, Afrique du Sud",
+    price: "1 150 €",
+    rating: 4.7,
+    image: voyageImage, 
+    duration: "8 Jours",
+    tags: ["Nature", "Safari"],
+    description: "Entre océan et montagne. Découvrez la Table Mountain et les pingouins de Boulders Beach.",
+    itinerary: [
+      { day: 1, title: "Le Cap", desc: "Visite du centre et Table Mountain." },
+      { day: 2, title: "Cap de Bonne Espérance", desc: "Route panoramique." },
+      { day: 3, title: "Vignobles", desc: "Dégustation à Stellenbosch." }
+    ]
   }
 ];
 
